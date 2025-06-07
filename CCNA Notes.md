@@ -19,5 +19,3 @@
 [[Access Control Lists (ACLs)]]
 [[Network Architectures]]
 [[Wireless LANs]]
-
-[[Lab Cheat Sheet]]
