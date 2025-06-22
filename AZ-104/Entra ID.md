@@ -3,6 +3,8 @@
 ### Overview
 Entra ID is a PaaS (Platform as a Service) used for providing secure access for cloud based resources for organisations and individuals. It provides developers with centralised authentication and authorisation for applications in Azure.
 
+[[Device Registration]]
+
 #### Features
 - Configuring access to applications
 - SSO for cloud-based SaaS applications
@@ -42,3 +44,10 @@ A subscription can only have one Entra ID tenant, however multiple subscriptions
 - Users that exist outside of Azure from another cloud provider.
 - **Source**: Invited User
 
+### Groups
+**Security Groups**
+- Used to manage member and computer access to shared resources for a group of users.
+- E.g. creating a group for a specific security policy.
+
+**Microsoft 365 Groups**
+- Used to promote collaboration, giving users access to shared resources like mailboxes, files,  Sharepoint sites etc...
