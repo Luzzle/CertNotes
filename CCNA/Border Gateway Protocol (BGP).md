@@ -77,3 +77,58 @@ Neighbours can be in any of the following states.
 **Opensent** - BGP messages have been sent but no BGP open message has been received.
 **Openconfirm** - Open messages have been sent and received but awaiting keepalive message
 **Established** - Full adjacency has been established and exchanging update messages.
+
+### Prefix Lists
+Prefix lists can be used to control route advertisement **or** route acceptance, meaning they can be applied both outbound and inbound. 
+
+**ge (greater than or equal)** and **le (less than or equal)** is used to match routes within a subnet with a certain prefix length.
+
+Unsetting ge and le or setting them to the exact same value will result in only route matching the exact prefix.
+##### Configuration
+Configure the prefix list.
+```fortios
+config router prefix-list
+	edit "PrefixListName"
+		config rule
+			edit 1
+				set prefix 10.0.0.0 255.0.0.0
+				set ge 24
+				set le 24
+			next
+		end
+	next
+end
+```
+
+Configure a route map.
+```fortios
+config router route-map
+	edit "RM-PrefixListName"
+		config rule
+			edit 1
+				set match-ip-address "PrefixListName"
+				set action permit
+			next
+		end
+	next
+end
+```
+
+Apply route map to BGP neighbour
+```fortios
+config router bgp
+	set as ASN
+	config neighbor
+		edit "neighbourIP"
+			set remote-as ASN
+			set route-map-in "PrefixListIN"
+			set route-map-out "PrefixListOUT"
+		next
+	end
+end
+```
+
+You can then check the advertised routes through
+```fortios
+get router info bgp neighbors NEIGHBOR advertised-routes
+```
