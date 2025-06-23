@@ -7,6 +7,8 @@ BGP takes into consideration all different peering options a router has and choo
 
 Routes are exchanged and traffic is transmitted over the Internet using eBGP (external BGP). Routes can be shared inside internal networks using iBGP (internal BGP).
 
+I.e. routing between the same Autonomous System -> iBGP. Routing between different different Autonomous Systems -> eBGP.
+
 #### BGP Functions
 BGP performs the following 3 main functions.
 
