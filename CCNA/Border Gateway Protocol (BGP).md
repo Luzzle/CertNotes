@@ -13,7 +13,7 @@ I.e. routing between the same Autonomous System -> iBGP. Routing between differe
 BGP performs the following 3 main functions.
 
 ##### Route Discovery
-BGP peers exchange routing information with neighbouring BGP peers through network-layer reachability information (NLRI) and path attributes.
+BGP peers exchange routing information with neighboring BGP peers through network-layer reachability information (NLRI) and path attributes.
 
 Path attributes include information like latency, hop count and cost.
 
