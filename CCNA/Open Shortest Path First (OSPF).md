@@ -26,9 +26,8 @@ OSPF uses the following criteria to select the router ID:
 
 Default Hello Timer: 10 seconds
 
-
 **The OSPF cost to a destination is the total cost of the exit interfaces. (Loopback interfaces have a cost of 1)**
-### LSAs and LSBs
+### LSAs and LSDBs
 Routers store information about the network in LSA's (Link State Advertisements) which are organized in a structure called LSDB (Link State Database).
 Routers will flood LSA's until all routers in the OSPF area develop the same map of the network.
 ###### LSA Flooding

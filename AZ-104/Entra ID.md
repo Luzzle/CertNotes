@@ -37,7 +37,7 @@ A subscription can only have one Entra ID tenant, however multiple subscriptions
 - **Source**: Microsoft Entra ID, External Microsoft Entra Directory
 
 **Directory Synchronised Identities**
-- Users that are synchronised over from an on prem Active Directory through Microsoft Entra Connect.
+- Users that are synchronised over from an on prem [[Active Directory]] through Microsoft Entra Connect.
 - **Source**: Windows Server AD
 
 **Guest Users**
