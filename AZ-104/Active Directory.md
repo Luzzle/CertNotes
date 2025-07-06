@@ -41,5 +41,5 @@ AD Connect has the following features:
 | Federation Integration        | Hybrid environment using an on-prem AD FS infrastructure for certificate renewal                  |
 | Synchronization               | Responsible for creating users, groups and other objects, ensuring on-prem and cloud data matches |
 | Health Monitoring             | Provides a central location for monitoring health statistics                                      |
-|                               |                                                                                                   |
+
 
