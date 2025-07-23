@@ -18,3 +18,20 @@
 Groups contain:
 **Owners** - permissions to add and remove members
 **Members** - get assigned permissions
+
+
+#### Roles
+Azure AD roles are used to manage AD resources in a directory such as:
+- creating or editing users
+- assigning admin roles
+- resetting user passwords
+- managing licenses
+- managing domains
+
+*Built in roles*
+- Global Administrator - Full access to all
+- User Administrator - Full access to creating and managing users
+- Billing Administrator - Ability to make purchases
+
+Creating custom roles will require **AD Premium P1 or P2**
+
