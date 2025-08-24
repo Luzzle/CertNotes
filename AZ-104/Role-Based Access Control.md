@@ -38,7 +38,3 @@ A role assignment consists of three elements:
 	]
 }
 ```
-
-|     |     |
-| --- | --- |
-|     |     |
