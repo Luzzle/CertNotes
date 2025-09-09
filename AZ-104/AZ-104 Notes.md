@@ -6,3 +6,4 @@
 [[Identity Access Management (IAM)]]
 [[Role-Based Access Control]]
 [[Policies]]
+[[Scripting]]
