@@ -51,3 +51,10 @@ A subscription can only have one Entra ID tenant, however multiple subscriptions
 
 **Microsoft 365 Groups**
 - Used to promote collaboration, giving users access to shared resources like mailboxes, files,  Sharepoint sites etc...
+
+### Custom Domains
+A custom domain that you own can be added to an Entra ID tenant. To validate you own the domain you must also add a TXT or MX record to the domain through the registrar using info provided by Azure.
+
+This allows you to create users and other services using your custom domain, instead of using MS's domain.
+
+### Administrative Units
