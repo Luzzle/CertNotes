@@ -58,3 +58,4 @@ A custom domain that you own can be added to an Entra ID tenant. To validate you
 This allows you to create users and other services using your custom domain, instead of using MS's domain.
 
 ### Administrative Units
+An Administrative Unit separates administrative permissions to groups of administrators. Can be thought of as different "departments".
