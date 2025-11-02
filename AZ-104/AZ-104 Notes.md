@@ -1,5 +1,6 @@
 #cert 
 
+[[Azure Platform]]
 [[ARM Template]]
 [[Entra ID]]
 [[Active Directory]]
