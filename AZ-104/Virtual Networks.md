@@ -4,6 +4,8 @@
 A Virtual Network (VNET) is a logical isolation of Azure resources. Each VNET has its own CIDR block and can be linked to other VNETs and on-premises networks.
 
 [[Public IP Addresses]]
+[[Network Security]]
+
 #### Subnets
 - Each subnet has its own range of IP addresses that fall within the VNETs CIDR block. 
 - Azure reserves 5 IP addresses within a subnet (example network 192.168.1.0/24):
