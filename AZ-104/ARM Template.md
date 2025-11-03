@@ -1,6 +1,6 @@
 #PrequisitesForAzureAdministrators
 
-*Azure Resource Manager* templates.
+*[[Azure Resource Manager]]* templates.
 ### Overview
 ARM templates are JSON files that define the infrastructure and configuration for a deployment. They allow you to declare what you intend to deploy without having to write the sequence of programming commands to create it.
 
