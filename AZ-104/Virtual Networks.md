@@ -13,4 +13,4 @@ A Virtual Network (VNET) is a logical isolation of Azure resources. Each VNET ha
 	- `192.168.1.1` - Reserved as default gateway
 	- `192.168.1.2` and `192.168.1.3` - Mapped to the VNET DNS IP addresses.
 	- `182.168.1.255` - Broadcast
--
+
