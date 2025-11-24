@@ -9,3 +9,7 @@
 [[Policies]]
 [[Scripting]]
 [[Virtual Networks]]
+[[Azure Load Balancer]]
+[[Azure Application Gateway]]
+[[Azure Network Manager]]
+[[Azure Storage]]
