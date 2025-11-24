@@ -42,7 +42,7 @@ If you implement GRS, you have two related options to choose from:
 - **GRS** replicates your data to another data centre in a secondary region. The data is available to be read only if Microsoft initiates a failover from the primary to secondary region.
 - **Read-access geo-redundant storage** (RA-GRS) is based on GRS. RA-GRS replicates your data to another data center in a secondary region, and also provides you with the option to read from the secondary region. With RA-GRS, you can read from the secondary region regardless of whether Microsoft initiates a failover from the primary to the secondary.
 
-#### Geo-Zone Redundant Storage (GZRS)\
+#### Geo-Zone Redundant Storage (GZRS)
 Geo-zone-redundant storage combines the high availability of zone-redundant storage with protection from regional outages as provided by geo-redundant storage. Data in a GZRS storage account is replicated across three Azure availability zones in the primary region, and also replicated to a secondary geographic region for protection from regional disasters.
 
 ### Storage Access
