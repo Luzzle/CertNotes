@@ -1,12 +1,7 @@
 #AzureStorage 
 
 ### Blob Storage
-Blob storage is optimised for storing large amounts of unstructured or non-relational data. Blob storage is ideal for:
-- Serving images or documents directly to a browser.
-- Storing files for distributed access.
-- Streaming video and audio.
-- Storing data for backup and restore, disaster recovery, and archiving.
-- Storing data for analysis by an on-premises or Azure-hosted service.
+see [[Blob Storage]]
 
 ### Azure Files
 Azure Files allow for configuration of network file shares, which can be accessed using SMB and Network File System (NFS) protocols. 
