@@ -59,3 +59,24 @@ Access can be restricted from public / private networks in the Networking tab.
 
 
 This will allow access from the internet, restrict to only private networks (such as express routes) or none at all (forcing the use of a private endpoint for example)
+
+
+#### Security
+###### Shared Access Signature (SAS)
+A shared access signature is a URI that grants restricted access rights to Azure Storage resources.
+You can provide a SAS to clients who shouldn't have access to your storage account key. By distributing a SAS URI to these clients, you grant them access to a resource for a specified period of time.
+
+- A _user delegation SAS_ is secured with Microsoft Entra credentials and also by the permissions specified for the SAS. A user delegation SAS is supported for Blob Storage and Data Lake Storage.
+    
+- An _account-level SAS_ to allow access to anything that a service-level SAS can allow, plus other resources and abilities. For example, you can use an account-level SAS to allow the ability to create file systems.
+    
+- A _service-level SAS_ to allow access to specific resources in a storage account. You'd use this type of SAS, for example, to allow an app to retrieve a list of files in a file system, or to download a file.
+    
+- A _stored access policy_ can provide another level of control when you use a service-level SAS on the server side. You can group SASs and provide other restrictions by using a stored access policy.
+
+###### Encryption
+**Infrastructure encryption** -  Infrastructure encryption can be enabled for the entire storage account, or for an encryption scope within an account. Data is encrypted twice, once at the service level and once at the infrastructure level.
+
+**Platform Managed Keys** - Platform-managed keys (PMKs) are encryption keys generated, stored, and managed entirely by Azure.
+
+**Customer-managed keys** - Customer managed keys (CMK), on the other hand, are keys read, created, deleted, updated, and/or administered by one or more customers. Keys stored in a customer-owned key vault or hardware security module (HSM) are CMKs
