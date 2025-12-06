@@ -13,3 +13,4 @@
 [[Azure Application Gateway]]
 [[Azure Network Manager]]
 [[Azure Storage]]
+[[VM Availability]]
