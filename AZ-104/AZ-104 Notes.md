@@ -16,3 +16,5 @@
 [[VM Availability]]
 [[VM Scaling]]
 [[Azure VM Scale Sets]]
+[[App Services]]
+[[App Service Plans]]
