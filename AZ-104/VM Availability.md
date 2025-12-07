@@ -1,6 +1,5 @@
 #AzureCompute
 
-
 ### Availability Zones
 
 |Category|Description|Examples|
