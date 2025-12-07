@@ -15,3 +15,4 @@
 [[Azure Storage]]
 [[VM Availability]]
 [[Compute Scaling]]
+[[Azure VM Scale Sets]]
