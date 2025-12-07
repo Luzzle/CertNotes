@@ -14,5 +14,5 @@
 [[Azure Network Manager]]
 [[Azure Storage]]
 [[VM Availability]]
-[[Compute Scaling]]
+[[VM Scaling]]
 [[Azure VM Scale Sets]]
