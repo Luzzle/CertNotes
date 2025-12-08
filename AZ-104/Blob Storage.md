@@ -40,3 +40,12 @@ You can use Azure Blob Storage lifecycle management policy rules to accomplish s
 - Transition blobs to a cooler storage tier (Hot to Cool, Hot to Archive, Cool to Archive) to optimize for performance and cost.
 - Delete current versions of a blob, previous versions of a blob, or blob snapshots at the end of their lifecycles.
 - Apply rules to an entire storage account, to select containers, or to a subset of blobs using name prefixes or blob index tags as filters.
+
+#### Blob Replication
+There are several considerations to keep in mind when planning your configuration for blob object replication.
+
+- Object replication requires that blob versioning is enabled on both the source and destination accounts. When blob versioning is enabled, you can access earlier versions of a blob. This access lets you recover your modified or deleted data.
+- Object replication doesn't support blob snapshots. Any snapshots on a blob in the source account aren't replicated to the destination account.
+- Object replication is supported when the source and destination accounts are in the Hot, Cool, or Cold tier. The source and destination accounts can be in different tiers.
+- When you configure object replication, you create a replication policy that specifies the source Azure storage account and the destination storage account.
+- A replication policy includes one or more rules that specify a source container and a destination container. The policy identifies the blobs in the source container to replicate.
