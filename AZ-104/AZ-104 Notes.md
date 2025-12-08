@@ -13,3 +13,8 @@
 [[Azure Application Gateway]]
 [[Azure Network Manager]]
 [[Azure Storage]]
+[[VM Availability]]
+[[VM Scaling]]
+[[Azure VM Scale Sets]]
+[[App Services]]
+[[App Service Plans]]
