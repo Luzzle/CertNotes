@@ -52,3 +52,6 @@ If there are multiple routes with the same address prefix, Azure selects the rou
 1. User-defined routes
 2. BGP routes
 3. System routes
+
+### VPN Gateway Notes:
+- Point-to-site configurations require a **route-based** VPN type.
