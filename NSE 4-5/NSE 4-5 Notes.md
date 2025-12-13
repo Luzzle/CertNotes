@@ -1,3 +1,3 @@
 #cert 
 
-[[Factory Default Settings]]
+[[FortiGate]]
