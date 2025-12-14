@@ -2,7 +2,8 @@
 
 [[FortiGate Interfaces]]
 [[FortiGate Monitoring]]
-### Life of a packet
+
+### Life of a Packet
 ![[Pasted image 20251214093221.png]]
 
 ### Modes

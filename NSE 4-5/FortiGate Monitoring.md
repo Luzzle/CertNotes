@@ -1,5 +1,12 @@
 #NSE4 
 
+Fortigate's can be monitored through logging systems, both locally and remote. Remote options include:
+- FortiAnalyzer
+- FortiSIEM
+- Syslog
+- FortiCloud
+- FortiManager
+
 ### Logging Workflow
 1. Traffic passes through FortiGate to your network
 2. FortiGate scans the traffic and acts based on configured policies
@@ -21,3 +28,10 @@
 
 #### Security
 *Security* logs record security events such as virus attacks or intrusion attempts. These are based on security profile type. 
+
+### Configuration
+```
+	# config log disk setting set status enable
+```
+
+By default logs stored older than 7 days are deleted from disk
