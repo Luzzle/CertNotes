@@ -40,6 +40,7 @@ Load Balancer has several elements that work together to ensure an application's
 	- When you use session persistence, connections from the same client go to the same back-end instance within the back-end pool.
 
 ### Load Balancer Usage
+
 #### When to use Azure LB
 Azure Load Balancer is best suited for applications that require ultra-low latency and high performance. 
 Load Balancer is suitable for your organization's needs because you're replacing existing network hardware devices that load balance traffic across applications.
