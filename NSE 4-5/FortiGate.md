@@ -14,6 +14,8 @@
 
 Interfaces cannot be used until they have an IP address.
 
+[[FortiGate Routing|Routing]]
+
 #### Transparent Mode
 - FortiGate is a layer 2 switch or bridge
 - Interfaces do not have IP Addresses
