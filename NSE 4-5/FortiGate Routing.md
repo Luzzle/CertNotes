@@ -7,6 +7,8 @@ The **Routing Monitor** widget can be used to view active (best) routes. This ca
 
 To view the routing table in the CLI run `get router info routing-table all`
 
+[[Equal Cost Multipath (ECMP)]]
+
 #### RIB (Routing Information Base)
 Standard routing table containing active (or best) connected, static and dynamic routes.
 
