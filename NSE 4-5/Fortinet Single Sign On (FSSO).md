@@ -16,3 +16,31 @@ FSSO for Windows AD uses a collector agent. There are 2 modes that monitor user 
 
 For Citrix and Terminal Services environments, Fortigate offers the Terminal Server (TS) agent. This also requires the Windows AD collector agent.
 This gathers logins for Citrix and Terminal servers where multiple users must share the same IP.
+
+### Troubleshooting
+
+General troubleshooting can be done using System Events (Log & Report > System Events > User Events).
+
+``` fortios
+	diagnose debug authd fsso [TAB]
+```
+
+#### Currently Logged-In Users
+
+```fortios
+	diagnose debug authd fsso list
+```
+
+#### Connection to FortiGate
+
+```fortios
+	diagnose debug authd fsso server-status
+```
+
+#### Polling Mode
+
+```fortios
+	diagnose debug fsso-polling detail
+	diagnose debug fsso-polling refresh-user
+	diagnose debug application fssod -1
+```
