@@ -42,4 +42,13 @@ The Fortigate will buffer all data sent from the server and starts the antivirus
 - MAPI and SSH protocol inspection
 - FortiNDR inspection
 
-### Common An
+### Common AntiVirus Issue Troubleshooting
+
+1. Verify FortiGuard antivirus license
+2. Force Fortigate to check for new antivirus updates
+	- `execute update-av`
+3. Debug application
+	- `diagnose debug application update -1`
+	- `diagnose debug enable`
+	- `execute update-av`
+4. Verify antivirus profile configuration
