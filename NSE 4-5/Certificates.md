@@ -19,4 +19,18 @@ FortiGate identifies the device or person by reading the CN value in the Subject
 FortiGate supports the X.509v3 certificate standard.
 
 
-### Usage
+### SSL Inspection
+
+#### SSL Certification Inspection
+FortiGate extracts the FQDN of the URL from either the TLS Server Name Indication (SNI) and SSL certificate Subject or SAN fields. This is used for web filtering.
+
+#### Full SSL Inspection
+Fortigate acts as a man in the middle proxy which maintains 2 seperate SSL sessions, client to Fortigate and Fortigate to server.
+The Fortigate encrypts and decrypts packets using its own keys and can inspect the traffic.
+![[Pasted image 20260110140338.png]]
+
+##### Fortigate Self-Signed CA Certificates
+By default, FortiGate uses a self-signed encrypting SSL CA certificate called `Fortinet_CA_SSL`.
+
+This is not listed with an approved CA and by default not trusted. To avoid this, install the CA certificate as a trusted CA on user devices or install a company CA on FortiGate for SSL full inspection.
+
