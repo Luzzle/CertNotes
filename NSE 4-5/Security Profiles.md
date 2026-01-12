@@ -21,3 +21,6 @@ config system global
 	set block-session-timer [1-300]
 end
 ```
+
+[[AntiVirus]]
+[[Web Filter]]
