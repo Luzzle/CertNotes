@@ -26,6 +26,4 @@ Interfaces cannot be used until they have an IP address.
 - Ping, SSH and HTTPS is open by default
 - Built in DHCP enabled on port1
 
-Testing123
-
 
