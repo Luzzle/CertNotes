@@ -6,7 +6,6 @@
 [[Active Directory]]
 [[Identity Access Management (IAM)]]
 [[Role-Based Access Control]]
-[[Policies]]
 [[Scripting]]
 [[Virtual Networks]]
 [[Azure Load Balancer]]

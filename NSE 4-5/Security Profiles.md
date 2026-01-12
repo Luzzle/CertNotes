@@ -24,3 +24,4 @@ end
 
 [[AntiVirus]]
 [[Web Filter]]
+[[Intrusion Protection]]

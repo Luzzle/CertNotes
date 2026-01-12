@@ -41,3 +41,14 @@ This allows the FortiGate to perform one of the below actions based on the visit
 **!! This is important !!**
 
 URL -> Static URL filter -> Category Filter -> Advanced Filter -> Display Page
+
+### FortiGuard
+You must disable FortiGuard anycast setting on the CLI to use UDP ports 443, 53 or 8888.
+
+```FortiOS
+config system fotiguard
+	set fortiguard-anycast {enable | disable}
+	set protocol {udp | https}
+	set port {8888 | 53 | 443}
+end
+```
