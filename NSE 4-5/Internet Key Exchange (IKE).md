@@ -10,3 +10,5 @@
 | Reliability                | Unrealiable - messages are not acknowledged                                                                                 | Reliable - messages are acknowledged                                                        |
 | Dial-up phase 1            | - Peer ID + aggressive mode + PSK<br>- Peer ID + main mode + certificate signature                                          | - Peer ID<br>- Network ID                                                                   |
 | Traffic selector narrowing | Not supported                                                                                                               | Supported                                                                                   |
+A use case for aggressive mode, is when there is more than one dial-up tunnel terminating on the same FortiGate IP address, and the remote peer is authenticated using a peer ID because its IP address is dynamic.
+
