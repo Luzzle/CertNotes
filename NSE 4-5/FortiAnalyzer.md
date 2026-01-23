@@ -1,6 +1,6 @@
 #NSE4 
 
-FortiAnalyzer stores incoming logs in the following manner:
+OFortiAnalyzer stores incoming logs in the following manner:
 1. Raw
 	- For long term storage purposes.
 	- Unable to be viewed in FortiView or Low View.

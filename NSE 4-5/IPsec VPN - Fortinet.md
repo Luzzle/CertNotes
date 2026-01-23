@@ -14,6 +14,16 @@ You have 3 options when configuring the remote gateway type of the VPN:
 2. Static IP
 3. Dynamic DNS - FQDN
 
+There are 2 types of IPsec VPN. Route and Policy Based.
+
+Policy based is legacy and only exists for backwards compatibility and should never be used.
+
+##### Route Based
+The FortiGate automatically adds a virtual interface with the VPN name that allows you to configure routing and firewall polciies for the IPsec traffic in the same way you do for normal traffic.
+
+You must configure at least one firewall policy that accepts traffic on your IPsec tunnel, otherwise the tunnel will not come up.
+
+
 ##### Ports
 **[[Internet Key Exchange (IKE)|IKE]]** - UDP 500
 **[[Internet Key Exchange (IKE)|IKE]] NAT-T** - UDP 4500
@@ -29,7 +39,7 @@ In order to create an IPsec tunnel, both devices must establish their SAs and se
 
 An SA is the bundle of algorithms and parameters being used to encrypt and authenticate data travelling through the tunnel. In normal two-way traffic, this exchange is secured by a pair of SAs, one for each traffic direction.
 
-IKE uses two distinct phases: [[IPSec Phase 1|phase 1]] and phase 2. Each phase negotiates different SA types. The SA negotiated during [[IPSec Phase 1|phase 1]] is called IKE SA, and the SA negotiated during phase 2 is called IPsec SA.
+IKE uses two distinct phases: [[IPSec Phase 1|phase 1]] and [[IPSec Phase 2|phase 2]]. Each phase negotiates different SA types. The SA negotiated during [[IPSec Phase 1|phase 1]] is called IKE SA, and the SA negotiated during [[IPSec Phase 2|phase 2]] is called IPsec SA.
 
 FortiGate uses **IKE SAs** for setting up a secure channel to **negotiate IPsec SAs**. 
 

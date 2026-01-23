@@ -13,6 +13,7 @@ An ECMP route is a route that contains the same destination, distance, metric an
 | Source-Destination IP | Sessions with the same source and destination address pair use the same route                                                                |
 | Weighted              | Sessions are distributed based on route or interface weights. The higher the weight, the more sessions are routed through the selected route |
 | Usage (Spillover)     | One route is used until the bandwidth threshold is reached, then the next route is used.                                                     |
+
 ![[Pasted image 20251226102721.png]]
 
 ### Configuration
