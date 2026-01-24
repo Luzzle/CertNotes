@@ -1,3 +1,4 @@
 #cert 
 
-[[Troubleshooting New Deployment]]
+[[Troubleshooting New Deployment - vSphere Foundation]]
+[[Troubleshooting New Deployment - VMware Cloud Foundation]]
