@@ -1,7 +1,7 @@
 #vcf9
 
-### vSphere Foundation Overview
-vSphere Foundation is the workload engine that provides an enterprise class hyper-converged infrastructure solution. The solution combines compute (vSphere) and storage (vSAN) virtualisation with built in Kubernetes orchestration (VKS) and intelligent operations (VCF Operations).
+### Architecture
+vSphere Foundation is the workload engine that provides an enterprise class hyper-converged infrastructure solution. The solution combines compute (vSphere) and storage (vSAN) virtualisation with built in Kubernetes orchestration (VKS) and intelligent [[Troubleshooting New Deployment - VMware Cloud Foundation#VCF Operations|operations (VCF Operations)]].
 
 The VCF installer is used for the initial deployment of the vSphere Foundation. This accepts manual configuration data entry using a UI wizard, or using a pre-populated deployment specification JSON file as input.
 
