@@ -35,6 +35,14 @@ Usage: ./sos [options]
 	--vm-screenshots: Collects screenshots from all VMs
 ```
 
+SoS writes the output to `/var/log/vmware/vcf/sddc-support`. This can be used to generate a log bundle for detailed diagnosis and troubleshooting purposes.
+
+##### Log Identifiers
+
+Logs can get intermingled, meaning it can be difficult to seperate logs of system and user initiated events.
+
+Log identifiers allow you to identify the logs of a particular event, such as the creation of a workload domain. Log identifiers are consistent across all log files.
+
 ### Log Files
 
 | Stage                           | Appliance Log Location | Location                                                                                                                                                |
