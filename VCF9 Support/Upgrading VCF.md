@@ -43,22 +43,22 @@ This is split into 2 phases:
 	- You **must** upgrade ESX and vCenter before upgrading the vSphere Distributed Switch to use features from later versions.
 	
 2. Conversion to VCF 9.0
-	- 
+
 
 #### VCF Installer Deployment Wizard
 
 After the vSphere Foundation component binaries are downloaded, you can start the deployment using the deployment wizard.
-- You must review the prequisites.
+- You must review the prerequisites.
 - Confirm a depot.
 - Then deploy from Deployment Wizard -> VMware vSphere Foundation.
 
-*When you select an existing vCenter infrastructure, the storage, hosts, networks and distributed switch pages of the wqizard are not available as compared to New Deployment*.
+*When you select an existing vCenter infrastructure, the storage, hosts, networks and distributed switch pages of the wizard are not available as compared to New Deployment*.
 
 You deploy VCF using a deployment specification JSON file by clicking `DEPLOY USING JSON SPEC` in the VCF installer menu.
 
 ##### VCF Operations
 
-As part of the VCF Operations configuration, you provide details for the VMware Cloud Foundations Operations applicance.
+As part of the VCF Operations configuration, you provide details for the VMware Cloud Foundations Operations appliance.
 
 - Operations Appliance Size (vCPUs and Memory)
 - FQDN
@@ -82,4 +82,3 @@ Before proceeding, the VCF installer validates the parameters provided. If valid
 1. Log in to the VCF Operations appliance for the initial configuration.
 2. Create a vCenter account from `Administration - Integrations`, provide details about the existing vCenter FQDN and credential, and save.
 3. Start collecting information about inventory objects from the vCenter system.
-4. 

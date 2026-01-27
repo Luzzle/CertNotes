@@ -21,14 +21,14 @@ Usage: ./sos [options]
 	--log-dir <LOGDIR>: Specifies the directory to store logs
 	--setup-json <SETUP_JSON>: Custom setup-json file for log collection
 	--short: Displays health results only for failures and warnings
-	--skip-known-host-check: Skips the specified check for SSL thumbprints for                                hosts in the known hosts file
+	--skip-known-host-check: Skips the specified check for SSL thumbprints for hosts in the known hosts file
 	--zip: Creates a zipped tar file for the output
 	
 	Log File Operations
 	--api-logs: Collects output from APIs
 	--vcf-installer-logs: Collects VCF Installer appliance support logs
 	--esx-logs: Collects logs from the ESX hosts only
-	--no-clean-old-logs: Use this option to prevent the tool from removing any                            output from a previous collection run.
+	--no-clean-old-logs: Use this option to prevent the tool from removing any output from a previous collection run.
 	--no-health-check: Skips the health check executed as part of log collection
 	--sddc-manager-logs: Collects logs from the SDDC Manager only
 	--vc-logs: Collect logs from the vCenter instances only
