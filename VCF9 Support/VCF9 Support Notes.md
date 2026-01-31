@@ -4,5 +4,7 @@
 [[Troubleshooting New Deployment - VMware Cloud Foundation]]
 [[Upgrading VCF]]
 [[Troubleshooting vSphere to vSphere Foundation 9.0 Conversion]]
-[[Troublshooting vSphere to VCF 9.0 Conversion]]
+[[Troubleshooting vSphere to VCF 9.0 Conversion]]
 [[Troubleshooting VCF 5.2 to 9.0 Upgrade]]
+[[License Management]]
+[[Troubleshooting License Management]]
