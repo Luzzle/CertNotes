@@ -2,7 +2,7 @@
 
 ### Architecture
 
-VMware Cloud Foundation (VCF) integrates [[Troubleshooting New Deployment - vSphere Foundation|compute]], storage, networking, operations and automation into a unified software-defined data center platform.
+VMware Cloud Foundation (VCF) integrates compute, storage, networking, operations and automation into a unified software-defined data center platform.
 
 VMware Cloud Foundation offers the following benefits:
 - Allows you to build a private cloud model
