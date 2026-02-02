@@ -1,4 +1,7 @@
+#vcf9 
+
 ### Overview
+
 **Prerequisites for ESX host commissioning**
 - Hosts must be pre-imaged with the correct ESX version.
 - Host names must be resolvable in DNS.
@@ -12,5 +15,4 @@ The following must be provided:
 - Storage Type
 - Network pool name
 - Host root password
-#vcf9 
 
