@@ -26,18 +26,3 @@ You must make the following preparations before creating a workload domain:
 2. Expand VCF Instances and select the correct instance.
 3. Click `ADD WORKLOAD DOMAIN`
 4. Create New
-
-### Compute
-**Prerequisites for ESX host commissioning**
-- Hosts must be pre-imaged with the correct ESX version.
-- Host names must be resolvable in DNS.
-- Storage type cannot be change after the host is commissioned.
-- Network pools must exist before you commission hosts.
-- Hosts can be commissioned individually or in bulk.
-- NTP and Syslog must be enabled.
-
-The following must be provided:
-- FQDN
-- Storage Type
-- Network pool name
-- Host root password

@@ -9,6 +9,7 @@
 [[License Management]]
 [[Troubleshooting License Management]]
 [[Workload Domain]]
+[[Workload Domain - Compute]]
 [[Workload Domain - Storage]]
 [[Workload Domain - Networking]]
 [[Troubleshooting Workload Domain]]
