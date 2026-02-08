@@ -6,7 +6,6 @@ This provides a list of subtasks completed during the creation process and any e
 
 Logs can be found in `/var/log/vmware/vcf/domainmanager/domainmanager.log`.
 
-
 ### Compute
 #### Troubleshooting ESX Host Commissioning
 You can check ESX host commissioning validation from `/var/log/vmware/vcf/operationsmanager/operationsmanager.log`.
