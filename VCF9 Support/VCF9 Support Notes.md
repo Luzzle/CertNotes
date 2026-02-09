@@ -13,3 +13,4 @@
 [[Workload Domain - Storage]]
 [[Workload Domain - Networking]]
 [[Troubleshooting Workload Domain]]
+[[NSX]]
