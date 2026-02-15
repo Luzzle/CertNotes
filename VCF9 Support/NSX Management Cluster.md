@@ -4,7 +4,7 @@ The NSX management cluster is formed by a group of three NSX management nodes fo
 
 The NSX Manager appliance has built-in policy, manager and controller roles.
 - The management plane includes the policy and manager roles.
-- The central control plane (CCP) includes the controller roles.
+- The **central control plane** (CCP) includes the controller roles.
 
 The desired state is replicated in the distributed persistent database, providing the same configuration view to all nodes in the cluster.
 
