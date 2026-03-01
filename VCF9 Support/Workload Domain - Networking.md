@@ -50,3 +50,10 @@ There are two types of External Connections that serve different requirements.
 	- If using dynamic routing, BGP must be configured on the ToR switch, which includes 2 BGP peers with its corresponding IP interfaces and local ASN.
 - VPC:
 	- Reserve an external IP block.
+
+##### Active=Standby Mode
+An active-standby Tier-0 gateway configuration is required for the following capabilities and use cases:
+- vSphere Supervisor cluster
+- VCF Autoamtion modern experience (IaaS)
+
+**The vSphere Supervisor cluster activation fails if the Tier-0 gateway is configured in active-active mode.**

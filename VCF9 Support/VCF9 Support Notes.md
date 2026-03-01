@@ -15,3 +15,4 @@
 [[Troubleshooting Workload Domain]]
 [[NSX]]
 [[Troubleshooting using VCF Operations Fleet Management]]
+[[Troubleshooting VCF Automation]]
