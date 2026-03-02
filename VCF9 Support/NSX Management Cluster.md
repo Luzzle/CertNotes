@@ -22,3 +22,7 @@ You can run `get cluster config` to determine configuration details about the cl
 	- STABLE - All members of the group are UP.
 	- DEGRADED - One or 2 members of the group are DOWN.
 	- UNAVAILABLE - All members of the group are down.
+
+
+### Errors
+**Remote Logging Not Configured** - Update the NSX Node profile to configure a remote logging server.

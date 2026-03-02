@@ -38,9 +38,9 @@ Deploying a workload domain with vSphere Supervisor:
 5. If not found, a new NSX Edge cluster must be manually deployed from vCenter.
 6. After the NSX Edge clusters are deployed, the Supervisor cluster state changes to ready.
 
-The NSX Edge cluster is configured as part of the network connectivity for the workload domain. To deploy an NSX Edge clsuter you must select the **Centralized Connectivity** option.
+The NSX Edge cluster is configured as part of the network connectivity for the workload domain. To deploy an NSX Edge cluster you must select the **Centralized Connectivity** option.
 
-You specify the NSX Edge clsuter details using the Configure Network Connectivity wizard.
+You specify the NSX Edge cluster details using the Configure Network Connectivity wizard.
 
 IaaS requires the deployment of large NSX Edge nodes.
 
@@ -61,3 +61,13 @@ During the deployment of a workload domain with IaaS enabled, the following two 
 
 - **svc-tkg-domain**: Runs vSphere pods dedicated to manage and monitor the Supervisor cluster.
 - **svc-velero-domain**: Runs vSphere pods dedicated to back up, restore and performs disaster recovery.
+
+### Edge-Cases Exam BS
+When enavling vSphere Supervisor with NSX Classic (not NSX VPC mode as described above), the vSphere Workload Management wizard filters the list of available NSX Edge Clusters to ensure they are explicitly designed for use with Kubernetes workloads.
+
+The **WCPReady** tag is the primary mechanism vCenter uses to identify a valid, compatible edge cluster for workload management and is assigned to the NSX Edge Cluster object.
+
+#### Account Lockouts
+When an NSX Admin account becomes locked in NSX Manager, this occurs due to failed login attempts exceeding the lockout threshold for either: CLI access, API access, or UI login, which is tied to API authentication.
+
+Once locked, the only supported method to recover the NSX admin account is to log in to the NSX Manager console as the root user and manually clear the lockout counters. This is documented in NSX Manager password-recovery procedures and is the standard administrative recovery action. 

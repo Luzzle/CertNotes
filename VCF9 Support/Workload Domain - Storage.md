@@ -57,3 +57,13 @@ You can use `esxcli storage` to display commands for viewing storage information
 | `esxcli vsan faultdomain get`                   | List information about if a host is a member of a fault domain. (Preferred or secondary)                                                                               |
 You can also use `vdq -q` to view a disks information related to vSAN. 
 `vsantop` provides performance information.
+
+### vSAN Express Storage Architecture
+VMware vSAN Express Storage Architecture (ESA) is a, high-performance, single-tier storage architecture introduced in vSAN 8 for NVMe-based hardware. It optimizes data path efficiency to provide up to 4x higher performance, improved compression, and reduced CPU overhead compared to the original architecture (OSA).
+
+Auto-poliocy management determines which default storage policies can be used based on the number of hosts in the cluster. RAID-5 and RAID-6 policies require a minimum number of hosts to satisfy fault domain and component placement rules.
+
+For vSAN ESA, the minimum hosts required are:
+**Raid 1** - 3 hosts
+**Raid 5** - 4 hosts
+**Raid 6** - 6 hosts
