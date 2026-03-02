@@ -63,7 +63,7 @@ During the deployment of a workload domain with IaaS enabled, the following two 
 - **svc-velero-domain**: Runs vSphere pods dedicated to back up, restore and performs disaster recovery.
 
 ### Edge-Cases Exam BS
-When enavling vSphere Supervisor with NSX Classic (not NSX VPC mode as described above), the vSphere Workload Management wizard filters the list of available NSX Edge Clusters to ensure they are explicitly designed for use with Kubernetes workloads.
+When enabling vSphere Supervisor with NSX Classic (not NSX VPC mode as described above), the vSphere Workload Management wizard filters the list of available NSX Edge Clusters to ensure they are explicitly designed for use with Kubernetes workloads.
 
 The **WCPReady** tag is the primary mechanism vCenter uses to identify a valid, compatible edge cluster for workload management and is assigned to the NSX Edge Cluster object.
 
