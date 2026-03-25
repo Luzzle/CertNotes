@@ -32,7 +32,7 @@ Steered traffic must be allowed by a firewall policy and reference an SD-WAN zon
 
 ### Use Cases
 #### Direct Internet Access (DIA)
-DIA, also known as local breakjout is the most common use case for SD-WAN. A site has multiple internet (underlay) links. The links are connected to FortiGate using different types of physical interfaces: port, VLAN, link aggregations, etc...
+DIA, also known as local breakout is the most common use case for SD-WAN. A site has multiple internet (underlay) links. The links are connected to FortiGate using different types of physical interfaces: port, VLAN, link aggregations, etc...
 
 A use case is to send sensitive traffic over the best-performing links, whilst distributing non-criticial traffic over one or more links using a best effort approach.
 
