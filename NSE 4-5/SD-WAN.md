@@ -4,22 +4,15 @@
 
 [[SD-WAN Components]]
 
-According to Gartner, software-defined WAN (SD-WAN) provides dynamic, policy-based, application path
-selection across multiple WAN connections, and supports service chaining for additional services, such as
-WAN optimization and firewalls. The Fortinet implementation of SD-WAN is called secure SD-WAN because it
-also provides security by leveraging the built-in security features available on FortiOS.
+According to Gartner, software-defined WAN (SD-WAN) provides dynamic, policy-based, application path selection across multiple WAN connections, and supports service chaining for additional services, such as WAN optimization and firewalls. The Fortinet implementation of SD-WAN is called secure SD-WAN because it also provides security by leveraging the built-in security features available on FortiOS.
 
-Secure SD-WAN relies on well-known FortiOS features, such as IPsec, link monitoring, advanced routing,
-internet services database (ISDB), traffic shaping, UTM inspection, and load balancing.
+Secure SD-WAN relies on well-known FortiOS features, such as IPsec, link monitoring, advanced routing, internet services database (ISDB), traffic shaping, UTM inspection, and load balancing.
 
 Note that SD-WAN controls egress traffic, not ingress traffic.
 
-In an SD-WAN environment, the terms underlay and overlay are commonly used to describe the link type of
-an SD-WAN member.
+In an SD-WAN environment, the terms underlay and overlay are commonly used to describe the link type of an SD-WAN member.
 
-**Underlays** refer to the physical links that you can rent or buy from an ISP, such as cable, DSL, fiber, MPLS,
-3G/4G/5G/LTE, and ATM links. These links are part of the ISP physical infrastructure that is responsible for
-delivering packets across networks. 
+**Underlays** refer to the physical links that you can rent or buy from an ISP, such as cable, DSL, fiber, MPLS, 3G/4G/5G/LTE, and ATM links. These links are part of the ISP physical infrastructure that is responsible for delivering packets across networks. 
 
 **Overlays** are virtual links that you build on top of underlays. A common example of an overlay is an IPsec tunnel. Because original packets are often encapsulated in ESP packets, the networks that communicate through the IPsec tunnel are no longer restricted to the routing policies of the ISP. In addition, the privacy and authentication features provided by IPsec protect your traffic from unauthorized access.
 
