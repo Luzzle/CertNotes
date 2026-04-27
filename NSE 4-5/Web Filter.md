@@ -1,7 +1,7 @@
 #NSE4 
 
 ### Overview
-When the server [[Certificates|certificate]] SNI check configuration is set to **enable** FortiGate uses the CN field instead of the domain in the SNI Field. If the SNI field does not match any of the domains in the CN or SAN field, the connection is closed.
+When the server [[Certificates|certificate]] SNI check configuration is set to **strict** FortiGate uses the CN field instead of the domain in the SNI Field. If the SNI field does not match any of the domains in the CN or SAN field, the connection is closed.
 
 If it is set to Disable, FortiGate always rates URLs based on the FQDN.
 
